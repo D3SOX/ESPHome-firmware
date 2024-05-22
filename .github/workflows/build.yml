@@ -16,8 +16,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  FIRMWARES: esp-web-tools esphome-web voice-assistant wake-word-voice-assistant bluetooth-proxy media-player
-  # VOICE_ASSISTANT_VERSION: beta
+  FIRMWARES: voice-assistant wake-word-voice-assistant
+  VOICE_ASSISTANT_VERSION: beta
 
 jobs:
   prepare:
@@ -129,10 +129,6 @@ jobs:
             name: Voice Assistant
           - project: wake-word-voice-assistant
             name: Voice Assistant
-          - project: bluetooth-proxy
-            name: Bluetooth Proxy
-          - project: media-player
-            name: Media Player
     steps:
       - uses: actions/download-artifact@v3
         with:
