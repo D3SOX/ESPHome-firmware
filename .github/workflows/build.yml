@@ -71,7 +71,7 @@ jobs:
         id: esphome-build
         with:
           yaml_file: ${{ matrix.firmware }}/${{ matrix.device }}.yaml
-          version: ${{ ' 2024.4.2' }}
+          version: ${{ '2024.4.2' }}
           cache: true
       - name: Move generated files to output
         run: |
