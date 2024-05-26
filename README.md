@@ -4,6 +4,6 @@ This repo holds the source of the firmwares I'm using for installing ESPHome ont
 
 # Downloads
 
-If you're interested for whatever reason: [Download](https://nightly.link/D3SOX/firmware/workflows/build/main?preview)
+If you're interested for whatever reason: [Download](https://nightly.link/D3SOX/ESPHome-firmware/workflows/build/main?preview)
 
 The `wake-word` version is the one with on-device recognition (microWakeWord)
